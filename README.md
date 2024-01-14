@@ -22,6 +22,9 @@ or install dependencies:
 
 The script makes a request to the given URL and parses the HTML response. It then searches for <link> elements that point to Atom or RSS feeds. If none are found, it tries appending common feed paths to the base URL to see if any valid feeds exist.
 
+## Attribution
+This script is inspired by and based on the autodiscovery functionality found in the RSS aggregator Temboz, specifically in the autodiscovery module: [Temboz Autodiscovery Module](https://github.com/fazalmajid/temboz/blob/master/tembozapp/autodiscovery.py).
+
 ## Author
 Antonio Troise
 
