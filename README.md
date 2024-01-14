@@ -9,14 +9,43 @@ This Python script (`rss_finder.py`) is designed to find RSS or Atom feeds on a 
   ```bash
   pip install html5lib feedparser requests
 
+  or install dependencies:
+
+  `pip install -r requirements.txt`
+
+## Installation
+To set up the development environment:
+
+1. Clone the repository:
+
+   `git clone https://github.com/levysoft/RSS-Finder`
+
+2. Enter the project directory:
+
+   `cd RSS-Finder`
+
+3. Create a Python virtual environment:
+
+   `python3 -m venv venv`
+
+4. Activate the virtual environment:
+
+   - On Windows:
+     ```
+     .\venv\Scripts\activate
+     ```
+   - On Unix or MacOS:
+     ```
+     source venv/bin/activate
+     ```
+5. Install dependencies:
+
+   `pip install -r requirements.txt`
+
 ## Usage
 To use the script, run it with a single argument: the URL of the website you want to find the feed for. For example:
 
 `python3 rss_finder.py https://example.com`
-
-or install dependencies:
-
-`pip install -r requirements.txt`
 
 ## How it Works
 
