@@ -1,4 +1,4 @@
-# RSS Feed Finder
+# RSS Finder
 
 ## Description
 This Python script (`rss_finder.py`) is designed to find RSS or Atom feeds on a given website. It tries multiple strategies, including looking for `<link>` tags in the HTML head that point to a feed, as well as trying common feed URL patterns.
